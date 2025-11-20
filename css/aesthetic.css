@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.name h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 80px 20px 20px; /* Adjusted padding to account for fixed header */
+}
+
+section {
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+section p, section ul {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #27ae60;
+    font-size: 24px;
+    line-height: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.home-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home-img {
+    margin-top: 20px;
+}
+
+.home-img .img-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #27ae60;
+}
+
+.home-img .img-box .img-item .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project a{
+    text-decoration: none;
+    color: #000;
+}
+.projects a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+}
+.projects h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.projects ul li{
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}

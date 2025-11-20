@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    color: black;
+    padding: 15px 0;
+    background-color:#34495e;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+   
+}
+
+.name a {
+    text-decoration: none;
+}
+
+.name h1 {
+    margin: 0;
+    font-size: 28px; /* Increased font size */
+    list-style: none;
+    color: #ecf0f1;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px; /* Increased font size */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+#contact_border {
+    background-color: yellow;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    transition: .5s;
+    border: 2px solid yellow;
+}
+
+#contact_border:hover {
+    background: transparent;
+    color: black;
+    box-shadow: none;
+}
+
+.home {
+    padding: 60px 9% 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-info h1 {
+    font-size: 60px; /* Increased font size */
+}
+
+.home-info h2 {
+    font-size: 36px; /* Increased font size */
+    margin-top: -30px;
+}
+
+.home-info p {
+    font-size: 22px; /* Increased font size */
+    margin: 10px 0 25px;
+    margin-right: 70px;
+}
+
+.home-info .btn-sci {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px; /* Increased padding */
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 40px;
+    color: black;
+    font-size: 18px; /* Increased font size */
+    font-weight: 600;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: black;
+    box-shadow: none;
+}
+
+.home-info .btn-sci .sci {
+    margin-left: 20px;
+}
+
+.home-img .img-box {
+    width: 30vw;
+    height: 30vw;
+    background-color: #e67e22;
+}
+
+.home-img .img-box .img-item {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(98, 8, 8);
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home-img .img-box .img-item .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.circle-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    z-index: -1;
+}
+
+.home-info .btn-sci .sci a {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px; /* Increased padding */
+    border: 2px solid yellow;
+    border-radius: 50%;
+    font-size: 22px; /* Increased font size */
+    color: black;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.contact-box {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-box h3 {
+    font-size: 32px; /* Increased font size */
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+}
+
+.contact-box a {
+    font-size: 22px; /* Increased font size */
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    margin-left: 20px; /* Added space between logo location and text */
+}
+
+.home-info .btn-sci .sci a:hover {
+    color: black;
+    background: yellow;
+}
+
+main {
+    padding: 16px;
+    margin-top: 100px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px; /* Increased font size */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px; /* Increased font size */
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Hide paragraph near home-img */
+.home-img p {
+    display: none;
+}

@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid gray;
+    padding: 20px;
+    box-sizing: border-box;/*changes the way the total width and height of an element are calculated.    */
+    
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar ul li{
+    margin-right: 10px;
+}
+.sidebar ul  li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.portfolio{
+    font-size: 30px;
+    padding: 5px 10px;
+    background-color: #e1e4e7;
+    border-radius: 5px;
+    opacity: 50px;
+    text-align: center;
+
+}
+.home{
+    padding: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sidebar ul li:last-child{
+    border-bottom: none;
+}
+.sidebar ul li:nth-child(4){
+    border-bottom: 1px solid gray;
+    border-width: 100 0px;
+    padding-bottom: 20px;
+}
+.sidebar .text p{
+    letter-spacing: 2px;
+    
+}
+.sidebar .sizetext{
+    font-size: 15px;
+}
+.contentpage .home{
+    overflow-y: scroll;
+    margin-left: 250px;
+    padding: 0px;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.home .para{
+    font-size: medium;
+    
+}
